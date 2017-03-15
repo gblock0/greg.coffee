@@ -5,7 +5,7 @@ const src = require('./../images/logo.png');
 export default class App extends React.Component {
 	render() {
 		return (
-			<div style={{ textAlign: 'center' }}>
+			<div className='logo-container'>
 				<img className='logo' src={src}/>
 			</div>);
 	}

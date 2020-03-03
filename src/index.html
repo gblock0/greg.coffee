@@ -14,34 +14,17 @@
   <meta property="og:image" content="https://greg.coffee/logo.png" />
   <meta property="og:url" content="https://greg.coffee" />
   <meta property="og:site_name" content="greg.coffee" />
-
+  <link rel="stylesheet" type="text/css" href="/css/app.css" />
   <!-- update the version number as needed -->
   <script defer src="/__/firebase/7.9.3/firebase-app.js"></script>
   <script defer src="/__/firebase/7.9.3/firebase-analytics.js"></script>
   <!-- initialize the SDK after all desired features are loaded -->
   <script defer src="/__/firebase/init.js"></script>
-
-  <style>
-    .logo-container {
-      display: flex;
-      justify-content: center;
-    }
-
-    @media screen and (min-width: 480px) {
-      .logo-container {
-        width: 100vw;
-      }
-
-      .logo-container .logo {
-        height: calc(100vh - 20px);
-      }
-    }
-  </style>
 </head>
 
 <body>
   <div class="logo-container">
-    <img class="logo" src="logo.png" />
+    <img class="logo" src="/imgs/logo.png" />
   </div>
 </body>
 

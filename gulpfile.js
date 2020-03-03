@@ -17,7 +17,7 @@ function css() {
 }
 
 function images() {
-  return src("src/**/*.png").pipe(dest("public/imgs/"));
+  return src("src/**/*.png").pipe(dest("public/"));
 }
 
 function html() {

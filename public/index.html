@@ -26,12 +26,22 @@
       display: flex;
       justify-content: center;
     }
+
+    @media screen and (min-width: 480px) {
+      .logo-container {
+        width: 100vw;
+      }
+
+      .logo-container .logo {
+        height: calc(100vh - 20px);
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="logo-container">
-    <img class="logo" src="/logo.png" />
+    <img class="logo" src="logo.png" />
   </div>
 </body>
 
